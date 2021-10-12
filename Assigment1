@@ -1,6 +1,6 @@
 Explain why we need a DataBase Management System (DBMS) instead of a spreadsheet?
-Databases can handle large amounts of data that cannot be managed in a spreadsheet.Databases are stored more efficiently. While spreadsheet exist, databases
-do not have records.A spreadsheet is stored in a computer's random access memory while it is being use.
+Databases can handle large amounts of data that cannot be managed in a spreadsheet.Databases are stored more efficiently. While spreadsheet exist, databases do not have records.
+A spreadsheet is stored in a computer's random access memory while it is being use.
 
 What are the advantages / disadvantages of using a DBMS (and specifically Postgres) compared to a spreadsheet (specifically MS Excel)?
 Spreadsheets are incredible for numeric and textual content values in enormously low quantity. Databases additionally expertly take care of numeric and textual content values
@@ -13,4 +13,30 @@ DBMS:It can do simple calculations.Efficient data handling.
 Spreadsheet:It can do simple data organizing and selecting.Inefficient data handling.
 
 Questionnaire
+What kind of spatial and thematic data you store?
+raster, vector and height data are stored. These are also kept as 3D objects. Attribute information, spatial information and descriptive information are stored.
+
+Do you use a DBMS? If so, which one(s)?
+Yes,ArcGIS survey database is used. In addition, postGIS, PostgreSQL, and msSQL survey are used in vector data.
+
+Is it a relational database? If so how many tables do you have?
+We use PostgreSQL and msSQL as relational databases.Different tables are kept for each project, so there are too many tables to count.
+
+Why do you think the use of DBMS is important? What is the main benefit to your operation/product/daily use?
+It provides convenience by accessing and collecting our own data very quickly and by collecting them under a single roof. It facilitates the management of data. It also
+provides great benefits in finding and presenting the data we want. It transforms it from a dispersed structure to a centralized structure.
+Also, we can see which operator has made and made what kind of changes.
+
+What do you think is the main source of trouble in using a DBMS?
+When the system is installed regularly and the structures are defined regularly, there is no problem.If we are trying to do a quick job, that is, if we want to complete
+it in a short time, it will be a problem.
+
+One final question for those who use a DBMS:
+Assume you have a team of Geomatics Engineers. Consider that employee A has very good skills in databases and prgramming and employee B does not possess these skills.
+Considering that you have the financial freedom and that you paying X TL to employee B; how much would you pay to employee A? 
+A geomatics engineer who is knowledgeable about DBMS will earn a higher salary than a traditional geomatics engineer.
+If the geomatics engineer receives x salary, our geomatics engineer who knows DBMS will receive between x+1500-2000.
+
+
+
 
